@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/pm2 start index.ts",
-    "dev": "ts-node index.ts"
+    "dev": "ts-node index.ts",
+    "demo": "ts-node server.ts"
   },
   "author": "",
   "license": "ISC",

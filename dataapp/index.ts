@@ -1568,7 +1568,7 @@ app.get('/spatial', async (req, res) => {
                 errorMessage: 'Please provide a valid d between 0.1 and 1000'
             })
         }
-        const d = parseFloat(req.query.d || '0.2')
+        const d = parseFloat((req.query.d as string) || '0.2')
 
         if (d < 0.1 || d > 1000) {
             return res.send({

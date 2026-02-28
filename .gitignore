@@ -1,0 +1,11 @@
+# Node dependencies
+dataapp/node_modules/
+dataapp/dist/
+
+# Logs
+*.log
+/tmp/
+
+# Environment
+.env
+.env.local
